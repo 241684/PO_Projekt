@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.Objects;
 import java.util.ResourceBundle;
 
 import javafx.event.ActionEvent;
@@ -37,6 +38,9 @@ public class adminLoginController {
     private Button btLogin;
 
     @FXML
+    private Button btReturn;
+
+    @FXML
     void initialize() {
         DatabaseHandler databaseHandler = new DatabaseHandler();
 
@@ -66,6 +70,10 @@ public class adminLoginController {
                 e.printStackTrace();
             }
         });
+
+        btReturn.setOnAction(event -> {
+            setBtReturn();
+        });
     }
 
     private void showAdminManagementScreen() {
@@ -78,8 +86,22 @@ public class adminLoginController {
             stage.show();
             // Hide this current window
             btLogin.getScene().getWindow().hide();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-        catch (IOException e) {
+    }
+
+    private void setBtReturn() {
+        try {
+            Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getClassLoader().getResource("sample.fxml")));
+            Scene scene = new Scene(root);
+            Stage stage = new Stage();
+            stage.setScene(scene);
+            stage.setTitle("Client info");
+            stage.show();
+            // Hide this current window
+            btReturn.getScene().getWindow().hide();
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }

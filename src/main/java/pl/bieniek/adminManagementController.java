@@ -1,19 +1,26 @@
 package pl.bieniek;
 
 
+import java.io.File;
+import java.io.IOException;
 import java.net.URL;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.Objects;
 import java.util.ResourceBundle;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.text.Text;
+import javafx.stage.Stage;
 import pl.bieniek.database.Const;
 import pl.bieniek.database.DatabaseHandler;
 
@@ -42,6 +49,9 @@ public class adminManagementController {
 
     @FXML
     private Text lbDisplayInfo;
+
+    @FXML
+    private Button btReturn;
 
     @FXML
     void initialize() {
@@ -107,5 +117,24 @@ public class adminManagementController {
         btReport.setOnAction(event -> {
 
         });
+
+        btReturn.setOnAction(event -> {
+            setBtReturn();
+        });
+    }
+
+    private void setBtReturn() {
+        try {
+            Parent root = FXMLLoader.load(new File("src/main/java/pl/bieniek/adminLogin.fxml").toURI().toURL());
+            Scene scene = new Scene(root);
+            Stage stage = new Stage();
+            stage.setScene(scene);
+            stage.setTitle("Client info");
+            stage.show();
+            // Hide this current window
+            btReturn.getScene().getWindow().hide();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

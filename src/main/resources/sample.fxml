@@ -40,7 +40,7 @@
          </image>
       </ImageView>
       <Button fx:id="btAdminLogin" layoutX="480.0" layoutY="363.0" mnemonicParsing="false" style="-fx-background-color: #424242;" text="Admin Login Page" textFill="WHITE" />
-      <Text fx:id="lbDisplayInfo" fill="WHITE" layoutX="172.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="257.09765625">
+      <Text fx:id="lbDisplayInfo" fill="WHITE" layoutX="172.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="257.09765625">
          <font>
             <Font size="10.0" />
          </font>

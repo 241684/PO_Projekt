@@ -71,5 +71,14 @@
          </image>
       </ImageView>
       <Text fx:id="lbDisplayInfo" fill="WHITE" layoutX="116.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="368.35546875" />
+      <Button fx:id="btReturn" layoutX="7.0" layoutY="394.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="30.0" style="-fx-background-color: #ff6659;">
+         <graphic>
+            <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/return.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
    </children>
 </AnchorPane>
