@@ -11,12 +11,12 @@
   <component name="ChangeListManager">
     <list default="true" id="fcefff4d-80e6-4a5a-b82c-cfa2b29f4472" name="Default Changelist" comment="Get informations button and fxml files updated">
       <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/slf4j_nop_1_7_30.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/bieniek/adminManagementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/adminManagementController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/bieniek/database/DatabaseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/database/DatabaseHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/bieniek/adminManagementController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/bieniek/adminManagementController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/bieniek/database/DatabaseHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/bieniek/database/DatabaseHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oshi-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/oshi-core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/bieniek/adminLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/adminLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/bieniek/adminLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/bieniek/adminLoginController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql.8" />
+    <property name="DatabaseDriversLRU" value="mysql.8&#10;mysql" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -50,7 +50,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/libraries/slf4j_nop_1_7_30.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/slf4j-nop-1.7.30.jar" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.33738318" />
@@ -96,7 +96,7 @@
       <workItem from="1622800872191" duration="98000" />
       <workItem from="1622801856419" duration="2369000" />
       <workItem from="1622804261320" duration="626000" />
-      <workItem from="1622884945509" duration="1216000" />
+      <workItem from="1622884945509" duration="2033000" />
     </task>
     <task id="LOCAL-00001" summary="Working">
       <created>1621374573107</created>
@@ -112,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622880269870</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Earlier commit bug fix (Generating report to CSV, TXT func added)">
+      <created>1622886261661</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1622886261661</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

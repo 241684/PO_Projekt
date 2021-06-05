@@ -48,32 +48,31 @@ public class adminLoginController {
             String loginText = tfUsername.getText().trim();
             String loginPwd = pfPassword.getText().trim();
             int counter = 0;
+            if(!loginText.equals("") && !loginPwd.equals("")) {
+                Admin admin = new Admin(loginText, loginPwd);
 
-            Admin admin = new Admin(loginText, loginPwd);
+                ResultSet adminRow = databaseHandler.getAdmin(admin);
 
-            ResultSet adminRow = databaseHandler.getAdmin(admin);
-
-            try {
-                while (adminRow.next()) {
-                    counter++;
+                try {
+                    while (adminRow.next()) {
+                        counter++;
+                    }
+                    if (counter == 1) {
+                        System.out.println("Login successful!");
+                        showAdminManagementScreen();
+                    } else {
+                        Shaker shUsername = new Shaker(tfUsername);
+                        shUsername.shake();
+                        Shaker shPassword = new Shaker(pfPassword);
+                        shPassword.shake();
+                    }
+                } catch (SQLException e) {
+                    e.printStackTrace();
                 }
-                if (counter == 1) {
-                    System.out.println("Login successful!");
-                    showAdminManagementScreen();
-                } else {
-                    Shaker shUsername = new Shaker(tfUsername);
-                    shUsername.shake();
-                    Shaker shPassword = new Shaker(pfPassword);
-                    shPassword.shake();
-                }
-            } catch (SQLException e) {
-                e.printStackTrace();
             }
         });
 
-        btReturn.setOnAction(event -> {
-            setBtReturn();
-        });
+        btReturn.setOnAction(event -> setBtReturn());
     }
 
     private void showAdminManagementScreen() {
