@@ -10,247 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcefff4d-80e6-4a5a-b82c-cfa2b29f4472" name="Default Changelist" comment="New project structure">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/oshi_core_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_48.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_spotbugs_spotbugs_4_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_spotbugs_spotbugs_annotations_4_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h3xstream_findsecbugs_findsecbugs_plugin_1_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_pinterest_ktlint_ktlint_core_0_36_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_pinterest_ktlint_ktlint_ruleset_standard_0_36_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_pinterest_ktlint_ktlint_test_0_36_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_puppycrawl_tools_checkstyle_6_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__guru_nidi_code_assert_0_9_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__guru_nidi_code_assert_core_0_9_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_gitlab_arturbosch_detekt_detekt_api_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_gitlab_arturbosch_detekt_detekt_core_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_gitlab_arturbosch_detekt_detekt_metrics_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_gitlab_arturbosch_detekt_detekt_rules_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jaxen_jaxen_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_javacc_javacc_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_5_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_platform_5_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_pmd_pmd_core_5_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_pmd_pmd_java_5_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_saxon_saxon_9_1_0_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_saxon_saxon_dom_9_1_0_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_bcel_bcel_6_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_text_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_12_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ec4j_core_ec4j_core_0_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_intellij_deps_trove4j_1_0_20181211.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_compiler_embeddable_1_3_71.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_daemon_embeddable_1_3_71.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_reflect_1_3_71.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_script_runtime_1_3_71.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_3_71.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_71.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20200518.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_analysis_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_commons_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_tree_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_util_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafx_swt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_mysql_connector_java_8_0_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/oshi_core_5_6_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/slf4j_nop_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-core-console-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-core-console-l1-2-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-core-datetime-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-core-debug-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-core-errorhandling-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-core-file-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-core-file-l1-2-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-core-file-l2-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-core-handle-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-core-heap-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-core-interlocked-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-core-libraryloader-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-core-localization-l1-2-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-core-memory-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-core-namedpipe-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-core-processenvironment-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-core-processthreads-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-core-processthreads-l1-1-1.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-core-profile-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-core-rtlsupport-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-core-string-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-core-synch-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-core-synch-l1-2-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-core-sysinfo-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-core-timezone-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-core-util-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-crt-conio-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-crt-convert-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-crt-environment-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-crt-filesystem-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-crt-heap-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-crt-locale-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-crt-math-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-crt-multibyte-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-crt-private-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-crt-process-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-crt-runtime-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-crt-stdio-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-crt-string-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-crt-time-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/api-ms-win-crt-utility-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/decora_sse.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/fxplugins.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/glass.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/glib-lite.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/gstreamer-lite.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/javafx_font.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/javafx_iio.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/jfxmedia.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/jfxwebkit.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/msvcp140.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/prism_common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/prism_d3d.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/prism_sw.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/ucrtbase.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/vcruntime140.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/bin/vcruntime140_1.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/legal/javafx.base/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/legal/javafx.base/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/legal/javafx.base/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/legal/javafx.controls/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/legal/javafx.controls/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/legal/javafx.controls/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/legal/javafx.fxml/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/legal/javafx.fxml/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/legal/javafx.fxml/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/legal/javafx.graphics/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/legal/javafx.graphics/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/legal/javafx.graphics/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/legal/javafx.graphics/jpeg_fx.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/legal/javafx.graphics/mesa3d.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/legal/javafx.media/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/legal/javafx.media/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/legal/javafx.media/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/legal/javafx.media/directshow.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/legal/javafx.media/glib.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/legal/javafx.media/gstreamer.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/legal/javafx.media/libffi.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/legal/javafx.swing/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/legal/javafx.swing/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/legal/javafx.swing/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/legal/javafx.web/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/legal/javafx.web/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/legal/javafx.web/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/legal/javafx.web/icu_web.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/legal/javafx.web/libxml2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/legal/javafx.web/libxslt.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/legal/javafx.web/webkit.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/lib/javafx-swt.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/lib/javafx.base.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/lib/javafx.controls.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/lib/javafx.fxml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/lib/javafx.graphics.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/lib/javafx.media.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/lib/javafx.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/lib/javafx.swing.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/lib/javafx.web.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-16/lib/src.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/oshi-core-5.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slf4j-nop-1.7.30.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oshi-core.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/oshi_core_jar/oshi-core.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/CPU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/GPU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/Info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/RAM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/SYSTEM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/Shaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/adminLogin.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/adminLoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/adminManagement.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/adminManagementController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/assets/baseline_lock_black_18dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/assets/icons8-database-52.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/assets/icons8-employee-100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/assets/icons8-microsoft-admin-100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/assets/icons8-pc-on-desk-80.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/assets/icons8-person-512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/database/Configs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/database/Const.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/database/DatabaseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/sendInfo.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/sendInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/start.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sendInfo.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/baseline_lock_black_18dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons8-database-52.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons8-employee-100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons8-microsoft-admin-100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons8-pc-on-desk-80.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons8-person-512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/assets/baseline_lock_black_18dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/assets/icons8-database-52.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/assets/icons8-employee-100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/assets/icons8-microsoft-admin-100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/assets/icons8-pc-on-desk-80.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/assets/icons8-person-512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/bieniek/Admin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/bieniek/CPU.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/bieniek/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/bieniek/GPU.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/bieniek/Info.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/bieniek/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/bieniek/RAM.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/bieniek/SYSTEM.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/bieniek/Shaker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/bieniek/adminLoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/bieniek/adminManagementController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/bieniek/database/Configs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/bieniek/database/Const.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/bieniek/database/DatabaseHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/bieniek/sendInfoController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/bieniek/start.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oshi-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/oshi-core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/bieniek/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/bieniek/adminManagement.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/adminManagement.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/bieniek/adminManagementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/adminManagementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/bieniek/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/bieniek/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/bieniek/adminManagementController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/bieniek/adminManagementController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/bieniek/database/DatabaseHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/bieniek/database/DatabaseHandler.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -284,7 +51,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/oshi-core-5.6.1.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.33738318" />
@@ -301,14 +68,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.bieniek.Main" />
-      <module name="oshi-core" />
-      <option name="PROGRAM_PARAMETERS" value="--module-path &quot;d:\Zsyp\bieniek\PO_projekt\HW-Info\lib\javafx-sdk-16\lib\;out\production&quot;  --add-modules=javafx.controls,javafx.fxml" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -316,6 +75,14 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.bieniek.Main" />
+      <module name="oshi-core" />
+      <option name="PROGRAM_PARAMETERS" value="--module-path &quot;d:\Zsyp\bieniek\PO_projekt\HW-Info\lib\javafx-sdk-16\lib\;out\production&quot;  --add-modules=javafx.controls,javafx.fxml" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

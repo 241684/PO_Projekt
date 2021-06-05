@@ -88,8 +88,7 @@ public class adminManagementController {
                 try {
                     if(set.next()) {
                         employee = databaseHandler.getInfo(employee);
-                        lbDisplayInfo.setText("Empolyee info: "+ employee.getOs() +", "+employee.getCpu()+", "+employee.getGpu()+", "+employee.getRam());
-                    }else{
+                        lbDisplayInfo.setText("Empolyee info: \n"+ "OS: " + employee.getOs() + "\n" + "CPU: " + employee.getCpu()+ "\n" + "GPU: " + employee.getGpu()+ "\n" + "RAM: " + employee.getRam());                    }else{
                         lbDisplayInfo.setText(employee.getName()+ " don't exist in database.");
                         Shaker shDisplay = new Shaker(lbDisplayInfo);
                         shDisplay.shake();
