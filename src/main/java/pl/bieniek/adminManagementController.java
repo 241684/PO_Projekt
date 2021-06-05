@@ -2,12 +2,16 @@ package pl.bieniek;
 
 
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.net.URL;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.List;
 import java.util.Objects;
 import java.util.ResourceBundle;
 
@@ -20,6 +24,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.text.Text;
+import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import pl.bieniek.database.Const;
 import pl.bieniek.database.DatabaseHandler;
@@ -115,12 +120,29 @@ public class adminManagementController {
         });
 
         btReport.setOnAction(event -> {
-
+            FileChooser saveDialog = new FileChooser();
+            Stage stage = new Stage();
+            saveDialog.setTitle("Select location to save report");
+            saveDialog.setInitialFileName("report_" + LocalDateTime.now().format(DateTimeFormatter.ofPattern("_dd-MM-yyyy_HH-mm-ss")));
+            saveDialog.getExtensionFilters().addAll(
+                    new FileChooser.ExtensionFilter("CSV", "*.csv"),
+                    new FileChooser.ExtensionFilter("TXT", "*.txt"));
+            saveDialog.setSelectedExtensionFilter(new FileChooser.ExtensionFilter("CSV", "*.csv"));
+            File file = saveDialog.showSaveDialog(stage);
+            if (file != null) {
+                if (generateCSV(file)) {
+                    this.lbDisplayInfo.setText("Report sucessfully saved to: " + file.getAbsolutePath());
+                } else {
+                    this.lbDisplayInfo.setText("Something goes wrong with generating a raport.");
+                }
+            } else {
+                this.lbDisplayInfo.setText("Filepath not selected! ");
+            }
         });
 
-        btReturn.setOnAction(event -> {
-            setBtReturn();
-        });
+        btReturn.setOnAction(event ->
+                setBtReturn()
+        );
     }
 
     private void setBtReturn() {
@@ -135,6 +157,31 @@ public class adminManagementController {
             btReturn.getScene().getWindow().hide();
         } catch (IOException e) {
             e.printStackTrace();
+        }
+    }
+
+    public static boolean generateCSV(File file) {
+        DatabaseHandler databaseHandler = new DatabaseHandler();
+        List<Employee> all = databaseHandler.getAllInfo();
+
+        try {
+            FileWriter outputFile = new FileWriter(file);
+            outputFile.append("Name,OS,CPU,GPU,RAM\n");
+
+            for (Employee tempEmployee : all) {
+                outputFile.append(tempEmployee.getName() + "," +
+                        tempEmployee.getOs() + "," +
+                        tempEmployee.getCpu() + "," +
+                        tempEmployee.getGpu() + "," +
+                        tempEmployee.getRam() + "\n");
+            }
+
+            outputFile.flush();
+            outputFile.close();
+            return true;
+        } catch (IOException exception) {
+            exception.printStackTrace();
+            return false;
         }
     }
 }

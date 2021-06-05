@@ -4,6 +4,8 @@ import pl.bieniek.Admin;
 import pl.bieniek.Employee;
 
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class DatabaseHandler extends Configs {
     Connection dbConnection;
@@ -38,6 +40,27 @@ public class DatabaseHandler extends Configs {
             throwables.printStackTrace();
         }
         return employee;
+    }
+
+    public List<Employee> getAllInfo(){
+        String query = "SELECT * FROM " + Const.INFO_TABLE;
+        List<Employee> allEmployees = new ArrayList<>();
+        try{
+            PreparedStatement preparedStatement = getDbConnection().prepareStatement(query);
+            ResultSet result = preparedStatement.executeQuery();
+            while(result.next()){
+                allEmployees.add(new Employee(result.getString(Const.INFO_NAME),
+                        result.getString(Const.OS),
+                        result.getString(Const.CPU),
+                        result.getString(Const.GPU),
+                        result.getString(Const.RAM)
+                        ));
+            }
+
+        }catch(SQLException | ClassNotFoundException throwables){
+            throwables.printStackTrace();
+        }
+        return allEmployees;
     }
 
     public void clearDatabase() throws SQLException, ClassNotFoundException {

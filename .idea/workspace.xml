@@ -10,13 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcefff4d-80e6-4a5a-b82c-cfa2b29f4472" name="Default Changelist" comment="Get informations button and fxml files updated">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/assets/return.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/bieniek/adminLogin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/adminLogin.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/bieniek/adminLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/adminLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/bieniek/adminLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/bieniek/adminLoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/bieniek/adminManagementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/adminManagementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/bieniek/database/DatabaseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/bieniek/database/DatabaseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/bieniek/adminManagementController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/bieniek/adminManagementController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/bieniek/database/DatabaseHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/bieniek/database/DatabaseHandler.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +50,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/libraries/slf4j_nop_1_7_30.xml" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.33738318" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/.idea/libraries/slf4j_nop_1_7_30.xml" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -68,17 +69,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.bieniek.Main" />
       <module name="oshi-core" />
@@ -106,6 +96,7 @@
       <workItem from="1622800872191" duration="98000" />
       <workItem from="1622801856419" duration="2369000" />
       <workItem from="1622804261320" duration="626000" />
+      <workItem from="1622884945509" duration="1216000" />
     </task>
     <task id="LOCAL-00001" summary="Working">
       <created>1621374573107</created>
@@ -132,7 +123,34 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main/master" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -147,6 +165,7 @@
     <MESSAGE value="New project structure" />
     <MESSAGE value="New project structure." />
     <MESSAGE value="Get informations button and fxml files updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Get informations button and fxml files updated" />
+    <MESSAGE value="Earlier commit bug fix (Generating report to CSV, TXT func added)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Earlier commit bug fix (Generating report to CSV, TXT func added)" />
   </component>
 </project>
